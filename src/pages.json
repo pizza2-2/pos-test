@@ -29,6 +29,54 @@
       "style": {
         "navigationBarTitleText": "关于"
       }
+    },
+    {
+      "path": "pages/Checkout/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "结算页面"
+      }
+    },
+    {
+      "path": "pages/customer/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "客户管理"
+      }
+    },
+    {
+      "path": "pages/HangingOrdersList/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "挂单管理"
+      }
+    },
+    {
+      "path": "pages/order/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "订单管理"
+      }
+    },
+    {
+      "path": "pages/product/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "商品管理"
+      }
+    },
+    {
+      "path": "pages/Settings/index",
+      "type": "page",
+      "layout": "default",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
     }
   ],
   "subPackages": []

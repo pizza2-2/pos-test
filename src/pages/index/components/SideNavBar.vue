@@ -53,22 +53,22 @@ export default {
         {
           text: '商品',
           iconType: 'add-circle', // 根据wd-icon支持的图标名更改
-          url: '/pages/index/index',
+          url: '/pages/product/index',
         },
         {
           text: '订单',
           iconType: 'cart', // 如果wd-icon不支持，需要更换为支持的图标名
-          url: '/pages/category/category',
+          url: '/pages/order/index',
         },
         {
           text: '取单',
           iconType: 'list', // 如果wd-icon不支持，需要更换为支持的图标名
-          url: '/pages/favorite/favorite',
+          url: '/pages/HangingOrdersList/index',
         },
         {
           text: '客户',
           iconType: 'user', // 将staff改为user，更常见的图标名
-          url: '/pages/profile/profile',
+          url: '/pages/customer/index',
         },
       ],
     }
@@ -96,7 +96,7 @@ export default {
 
       // 跳转到设置页面
       uni.navigateTo({
-        url: '/pages/settings/settings',
+        url: '/pages/settings/index',
       })
 
       // 向父组件传递设置事件
